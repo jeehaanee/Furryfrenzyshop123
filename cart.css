@@ -1,0 +1,41 @@
+<style>
+        /* تنسيق شريط التنقل */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255, 166, 0);
+            border-bottom: 1px solid #ddd;
+            border-radius: 15px;
+        }
+
+        /* تنسيق الصفحة التي تحتوي على الأيقونة والنصوص */
+        .cart-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cart-icon {
+            font-size: 50px;
+            color: orange;
+        }
+
+        .cart-container p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .cart-container button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cart-container button:hover {
+            background-color: darkorange;
+        }

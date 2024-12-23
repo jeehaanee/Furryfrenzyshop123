@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Frenzy</title>
+    <!-- إضافة مكتبة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-left">
+            <span class="store-name">Furry Frenzy</span>
+        </div>
+        <div class="nav-right">
+            <button id="search-icon" onclick="toggleSearch()">
+                <i class="fas fa-search"></i>
+            </button>
+            <input type="search" id="search" placeholder="Search...">
+        </div>
+    </nav>
+
+    <!-- Location Section -->
+    <section class="location">
+        <h2>Our Location</h2>
+        <p>Visit us at our store! We are located in the heart of the city, easily accessible and ready to help you with all your pet needs.</p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7814335997256!2d-73.98513008415314!3d40.74881797932637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ae80e0ef57%3A0x8f76bc6b26e94a97!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1677461953218!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contact">
+            <b>Furry Frenzy</b>
+            <p>Tél/WhatsApp: <a href="tel:0702070067">0634547888</a></p>
+        </div>
+        <div class="links">
+            <a href="#terms">Conditions générales</a>
+            <a href="#privacy">Politique de confidentialité</a>
+            <a href="#shipping">Expédition/Livraison</a>
+            <a href="#refund">Remboursements et retours</a>
+        </div>
+        <div class="social-icons">
+            <a href="#facebook">Facebook</a>
+            <a href="#instagram">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle search input
+        function toggleSearch() {
+            const searchInput = document.getElementById("search");
+            searchInput.style.display = (searchInput.style.display === "none" || searchInput.style.display === "") ? "block" : "none";
+        }
+    </script>
+
+</body>
+</html>
